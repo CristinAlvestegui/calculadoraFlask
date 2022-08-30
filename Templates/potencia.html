@@ -5,14 +5,14 @@
     <title>{{titulo}}</title> <!--todo o q esta dentro de {} vem de uma variável python-->
 </head>
 <body>
-    <form action="/soma" method="POST">
-    <label for="number1">Número 01:</label>
+    <form action="/potencia" method="POST">
+    <label for="number1">Base:</label>
     <input type="number" name="num1" class="form-control" id="number1" placeholder="Informe um número"/>
 
-    <label for="number2">Número 02:</label>
+    <label for="number2">Potencia:</label>
     <input type="number" name="num2" class="form-control" id="number2" placeholder="Informa um número"/>
 
-    <button type="submit" class="botao">Somar</button> <!--executa ação do botão-->
+    <button type="submit" class="botao">Potencia</button> <!--executa ação do botão-->
 
     <label id="result">{{resultado}}</label><!--aqui é onde vamos mostrar o resultado do botão soma-->
     </form>
